@@ -1,0 +1,73 @@
+<!doctype html> 
+<html lang="es"> 
+<head> 
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Login</title> 
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" /> 
+	<link rel="stylesheet" href="../css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="../css/select2.min.css"> 
+	<link rel="stylesheet" href="../css/estilos.css"> 
+	<link rel="stylesheet" href="../css/menu-lateral.css"> 
+	<style>
+		.foto-mini {
+			width: 10%;
+			margin: 0.2em;
+			cursor: pointer;
+		}
+	</style>
+</head> 
+<body> 
+	<div style="display: none" id="loading-spinner"></div> 
+	<div id="menu-lateral"></div> 
+
+	<div class="container mt-4">
+
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-end justify-content-between">
+                        <h4 class="float-left heading h4-responsive mb-0">Login</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" id="username" placeholder="Ingrese rut" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="text" id="password" placeholder="Ingrese mensaje" class="form-control" autocomplete="off">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row py-2 flex-row">
+                    <div class="col col-md-6 d-flex justify-content-start">
+                    </div>
+                    <div class="col col-md-6 d-flex justify-content-end">
+                        <button type="button" onclick="entrar()" class="btn btn-primary me-2">
+                            <span>Entrar</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	</div>
+
+	<script src="../js/jquery-3.6.0.min.js"></script> 
+	<script src="../js/bootstrap.bundle.min.js"></script> 
+	<script src="../js/select2.min.js"></script> 
+	<script src="../js/utilidadesService.js"></script> 
+	<script src="../js/menu-lateral.js"></script> 
+	<script src="login.js"></script> 
+</body> 
+
+</html> 
