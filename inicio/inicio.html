@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inicio</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../css/menu-lateral.css">
+	<link rel="stylesheet" href="../plugins/jquery-ui/jquery-ui.min.css">
+</head>
+
+<body>
+	<div style="display: none" id="loading-spinner"></div>
+	<div id="menu-lateral"></div>
+
+	<div id="contenido">
+		<div class="container mt-4">
+
+			<div class="card">
+				<div class="card-header">Inicio</div>
+				<div class="card-body">
+					<h5 class="card-title">AppPrueba</h5>
+					<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+			<div id="filtroBusqueda" class="row"> 
+				<div class="col-md-4"> 
+					<div class="form-group"> 
+						<label class="control-label" for="fechaReserva"> Fecha reserva </label> 
+						<input type="text" name="fechaReserva" value="" class="form-control" />
+					</div> 
+				</div> 
+			</div> 
+
+		</div>
+
+	</div>
+
+
+	<script src="../js/jquery-3.6.0.min.js"></script>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+	<script src="../js/menu-lateral.js"></script>
+
+	<script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
+	<script src="../js/fechaService.js"></script>
+
+	<script>
+
+		let fechaService = new FechaService();
+
+		window.onload = () => 
+		{ 
+			menuLateral({ querySelector: '#menu-lateral' }); 
+
+			// 2023-11-28   asi llega al editar en sistema ventas
+			// 2023-11-28	asi se envia al actualizar en sistema ventas
+
+			console.log(fechaService.obtenerFechaInvertida("2023-11-28"));
+
+			document.querySelector("#filtroBusqueda [name='fechaReserva']").value = "16-02-2024"; 
+
+			fechaService.cargarDatePicker({
+				querySelector: "#filtroBusqueda [name='fechaReserva']", 
+				placeholder: "Escribir fecha",
+				onSelect: (x) => console.log(x.value),
+				onClear: () => console.log("caca onClear")
+			});
+		}; 
+	</script>
+	
+</body>
+
+</html>
