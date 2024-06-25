@@ -169,7 +169,7 @@ function llenarDatos()
 	abierto: false,
 	fotos: [
 	  { ruta: "1.png" },{ ruta: "2.png" },{ ruta: "3.png" },{ ruta: "4.png" },{ ruta: "5.png" },{ ruta: "6.png" }, { ruta: "7.png" }, { ruta: "8.png" },
-	  { ruta: "9.jpg" }
+	  { ruta: "9.jpg" }, { ruta: "10.jpg" }, { ruta: "11.jpg" }
 	]
   });
 
