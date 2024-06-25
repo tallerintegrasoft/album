@@ -159,7 +159,7 @@ function llenarDatos()
   //     { ruta: "16.png" }, { ruta: "17.png" },
   //     { ruta: "18.png" },{ ruta: "19.png" },{ ruta: "20.png" }, { ruta: "21.png" },{ ruta: "22.png" },{ ruta: "23.png" },
   //     { ruta: "24.png" },{ ruta: "25.png" },{ ruta: "26.png" }, { ruta: "27.png" }, { ruta: "28.png" },
-  //     { ruta: "29.jpg" }, { ruta: "30.jpg" }
+  //     { ruta: "29.jpg" }, { ruta: "30.jpg" }, { ruta: "31.jpg" }, { ruta: "32.jpg" }, { ruta: "33.jpg" }
   //   ]
   // });
 
