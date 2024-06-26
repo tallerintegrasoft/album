@@ -21,9 +21,6 @@ function menuLateral(datos = {})
                         <a class="nav-link" href="../inicio/inicio.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../login/login.html">Login</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="../catacumba/catacumba.html">Catacumba</a>
                     </li>
                     <li class="nav-item">
