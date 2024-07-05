@@ -187,5 +187,16 @@ function llenarDatos()
 	  { ruta: "48.png" }
 	]
   });
+
+  this.categorias.push({
+	nombre: "Office",
+	nombreCarpeta: "Office",
+	abierto: false,
+	fotos: [
+	  { ruta: "1.jpg" }
+	]
+  });
+
+	
 }
 
