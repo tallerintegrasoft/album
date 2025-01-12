@@ -88,6 +88,21 @@ function verFoto(img) {
 
 function llenarDatos() 
 {
+	//============================>>>>
+
+	this.categorias.push({
+		nombre: "2024",
+		nombreCarpeta: "2024",
+		abierto: false,
+		fotos: [
+		  { ruta: "1.jpg" }, { ruta: "2.jpg" }, { ruta: "3.jpg" }, { ruta: "4.jpg" }, { ruta: "5.jpg" }, { ruta: "6.jpg" }, { ruta: "7.jpg" }, { ruta: "8.jpg" },
+		  { ruta: "9.jpg" }, { ruta: "10.jpg" }, { ruta: "11.jpg" }, { ruta: "12.jpg" }, { ruta: "13.jpg" }, { ruta: "14.jpg" }, { ruta: "15.jpg" }, { ruta: "16.jpg" },
+		  { ruta: "17.jpeg" }, { ruta: "18.jpg" }, { ruta: "19.jpg" }, { ruta: "20.jpg" }
+		]
+	  });
+
+	//============================>>>>
+
   this.categorias.push({
 	nombre: "Matrimonio",
 	nombreCarpeta: "Matri",
@@ -159,7 +174,7 @@ function llenarDatos()
   //     { ruta: "16.png" }, { ruta: "17.png" },
   //     { ruta: "18.png" },{ ruta: "19.png" },{ ruta: "20.png" }, { ruta: "21.png" },{ ruta: "22.png" },{ ruta: "23.png" },
   //     { ruta: "24.png" },{ ruta: "25.png" },{ ruta: "26.png" }, { ruta: "27.png" }, { ruta: "28.png" },
-  //     { ruta: "29.jpg" }, { ruta: "30.jpg" }, { ruta: "31.jpg" }, { ruta: "32.jpg" }, { ruta: "33.jpg" }
+  //     { ruta: "29.jpg" }, { ruta: "30.jpg" }
   //   ]
   // });
 
@@ -169,7 +184,7 @@ function llenarDatos()
 	abierto: false,
 	fotos: [
 	  { ruta: "1.png" },{ ruta: "2.png" },{ ruta: "3.png" },{ ruta: "4.png" },{ ruta: "5.png" },{ ruta: "6.png" }, { ruta: "7.png" }, { ruta: "8.png" },
-	  { ruta: "9.jpg" }, { ruta: "10.jpg" }, { ruta: "11.jpg" }
+	  { ruta: "9.jpg" }
 	]
   });
 
@@ -196,7 +211,5 @@ function llenarDatos()
 	  { ruta: "1.jpg" }
 	]
   });
-
-	
 }
 
