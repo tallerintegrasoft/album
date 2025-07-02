@@ -91,6 +91,19 @@ function llenarDatos()
 	//============================>>>>
 
 	this.categorias.push({
+		nombre: "2025",
+		nombreCarpeta: "2025",
+		abierto: false,
+		fotos: [
+		  { ruta: "1.jpg" }, { ruta: "2.jpg" }, { ruta: "3.jpg" }, { ruta: "4.jpg" }, { ruta: "5.jpg" }, { ruta: "6.jpg" }, { ruta: "7.jpg" }, { ruta: "8.jpg" },
+		  { ruta: "9.jpg" }, { ruta: "10.jpg" }, { ruta: "11.jpg" }, { ruta: "12.jpg" }, { ruta: "13.jpg" }, { ruta: "14.jpg" }, { ruta: "15.jpg" }, { ruta: "16.jpg" },
+		  { ruta: "17.jpg" }, { ruta: "18.jpg" }, { ruta: "19.jpg" }, { ruta: "20.jpg" }, { ruta: "21.jpg" }
+		]
+	});
+
+	//============================>>>>
+
+	this.categorias.push({
 		nombre: "2024",
 		nombreCarpeta: "2024",
 		abierto: false,
@@ -99,7 +112,7 @@ function llenarDatos()
 		  { ruta: "9.jpg" }, { ruta: "10.jpg" }, { ruta: "11.jpg" }, { ruta: "12.jpg" }, { ruta: "13.jpg" }, { ruta: "14.jpg" }, { ruta: "15.jpg" }, { ruta: "16.jpg" },
 		  { ruta: "17.jpeg" }, { ruta: "18.jpg" }, { ruta: "19.jpg" }, { ruta: "20.jpg" }
 		]
-	  });
+	});
 
 	//============================>>>>
 
